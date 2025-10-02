@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  /* use meal.png from project root for header hero image */
-  background-image: url("../meal.png");
+  /* header hero image (meal.png) expected at project root next to this CSS file */
+  background-image: url("./meal.png");
    background-size: cover;         /* cover | contain | auto */
   background-position: center;    /* center | top left | x% y% */
   background-repeat: no-repeat;   /* no-repeat | repeat-x | repeat-y | repeat */
@@ -102,8 +102,8 @@ body{
   content: "";
   position:absolute;
   inset:0;
-  /* image is stored at workspace root next to folders, adjust path from this stylesheet */
-  background-image: url("../meal.png");
+  /* adjust path from this stylesheet: image is expected alongside styles.css */
+  background-image: url("./meal.png");
   background-size: cover;
   background-position: center;
   filter: brightness(0.65) saturate(0.95);
