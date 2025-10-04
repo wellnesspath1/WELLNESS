@@ -8,7 +8,7 @@ body {
 header {
   /* header hero image (meal.png) expected at project root next to this CSS file */
   background-image: url("../meal.png");
-   background-size: cover;         /* cover | contain | auto */
+  background-size: cover;        /* cover | contain | auto */
   background-position: center;    /* center | top left | x% y% */
   background-repeat: no-repeat;   /* no-repeat | repeat-x | repeat-y | repeat */
   background-attachment: scroll;  /* scroll | fixed | local */
